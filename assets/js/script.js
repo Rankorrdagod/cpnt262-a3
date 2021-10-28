@@ -1,0 +1,1 @@
+fetch(https://epic.gsfc.nasa.gov/api/natural)
