@@ -1,18 +1,30 @@
-h1{
-    color: red;
-}
 body{
-    text-align: center;
-      background-color: #B5CAFF;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: auto;
-        max-width: 1200px;
-        margin: auto;
+  background-color: darkgray;
+}
+
+
+h1{
+  text-align: center;
+}
+
+.gallery ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40ch, 1fr));
+    list-style: none;
+   
       }
+
+.gallery ul li {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+ 
+  background-color: palegreen;
+  border-radius: 10%;
+
+ text-align: center;
+}
+
+img{
+  border-radius: 10%;
+}

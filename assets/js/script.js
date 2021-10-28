@@ -14,7 +14,7 @@ fetch('https://epic.gsfc.nasa.gov/api/natural')
    console.log(data);
     data.forEach(function(epic){
     // console.log(epic);  
-    output += `<li>${epic.identifier}</li>`;
+    output += `<li> ID:${epic.identifier} v.${epic.version} <img src="https://epic.gsfc.nasa.gov/archive/natural/2021/10/27/jpg/${epic.image}.jpg" alt="Pictures from Oct 27th" width="275" height="275">${epic.caption} on ${epic.date}</li>`;
 
     })
     gallery.innerHTML = `<ul>${output}</ul>`;
