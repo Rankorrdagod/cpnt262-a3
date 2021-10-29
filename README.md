@@ -15,6 +15,6 @@
 
 
 ## Attributions
-[Nasa API](https://api.nasa.gov/)
-[Pixabay Background Image](https://pixabay.com/photos/earth-lights-satellite-image-globe-1149733/)
-[Tony Grimes](https://gist.github.com/acidtone)
+- [Nasa API](https://api.nasa.gov/)
+- [Pixabay Background Image](https://pixabay.com/photos/earth-lights-satellite-image-globe-1149733/)
+- [Tony Grimes](https://gist.github.com/acidtone)
