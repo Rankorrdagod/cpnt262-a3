@@ -16,7 +16,7 @@ fetch('https://epic.gsfc.nasa.gov/api/enhanced/date/2021-10-27')
     console.log();  
     output += `<li> 
     ID:${epic.identifier} v.${epic.version} <a href="https://epic.gsfc.nasa.gov/archive/enhanced/2021/10/27/jpg/${epic.image}.jpg">
-    <img src="https://epic.gsfc.nasa.gov/archive/enhanced/2021/10/27/jpg/${epic.image}.jpg" alt="Pictures from Oct 27th" width="275" height="275"></a>
+    <img src="https://epic.gsfc.nasa.gov/archive/enhanced/2021/10/27/jpg/${epic.image}.jpg" alt="Pictures from Oct 27th" ></a>
     ${epic.caption} on ${epic.date}.
     </li>`;
    

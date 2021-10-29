@@ -1,5 +1,7 @@
 # cpnt262-a3
 ### By Evan Burton
+- https://rankorrdagod.github.io/cpnt262-a3/
+- https://github.com/Rankorrdagod/cpnt262-a3
 ## NASA Epic API
 - Spoke with Tony, as my API does not have URL links in the data he said it was OK to pull more info from API to make up for it, added three separate pages with images and data to hopefully satisfy assignment criteria.
 - Initialized repo and set up fetch for the nasa api get src https://epic.gsfc.nasa.gov/api/natural
