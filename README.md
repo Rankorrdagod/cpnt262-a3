@@ -8,7 +8,7 @@
 - Added some more styling to make the page easier to look at while it work.
 - Made the button for dropdown huge so it can't be missed hopefully if i get the fetch to work.
 - Found out that if you query the basic api link it willchange each day and break everything, if you want your images to have the correct dates applied you need to query the archive.
-- Have decided to add multiple pages in order to show diiferent sets of images between years so the site has a purpose.
+- Have decided to add multiple pages in order to show diiferent sets of images between years so the site has a purpose, im certain theres a better way to do this with less .js files and html files but multiple fetches seems to break the page...
 - Trying to decide how to add the position queries to the cards, might try and make smaller cards beneath the image cards with position data.
 
 
