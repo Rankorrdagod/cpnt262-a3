@@ -1,4 +1,4 @@
-# fetch-api
+# cpnt262-a3
 ### By Evan Burton
 ## NASA Epic API
 - Spoke with Tony, as my API does not have URL links in the data he said it was OK to pull more info from API to make up for it, added three separate pages with images and data to hopefully satisfy assignment criteria.
