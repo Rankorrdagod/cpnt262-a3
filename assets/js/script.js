@@ -1,7 +1,7 @@
 let output= '';
 const gallery = document.querySelector('.gallery')
 
-fetch('https://epic.gsfc.nasa.gov/api/natural')
+fetch('https://epic.gsfc.nasa.gov/api/enhanced/date/2021-10-27')
   .then(function(response){
     // JSON that is returned from the server must be converted to a JS object asynchronously.
     if (!response.ok) {
@@ -15,9 +15,9 @@ fetch('https://epic.gsfc.nasa.gov/api/natural')
     data.forEach(function(epic){
     console.log();  
     output += `<li> 
-    ID:${epic.identifier} v.${epic.version} <a href="https://epic.gsfc.nasa.gov/archive/natural/2021/10/27/jpg/${epic.image}.jpg">
-    <img src="https://epic.gsfc.nasa.gov/archive/natural/2021/10/27/jpg/${epic.image}.jpg" alt="Pictures from Oct 27th" width="275" height="275"></a>
-    ${epic.caption} on ${epic.date}
+    ID:${epic.identifier} v.${epic.version} <a href="https://epic.gsfc.nasa.gov/archive/enhanced/2021/10/27/jpg/${epic.image}.jpg">
+    <img src="https://epic.gsfc.nasa.gov/archive/enhanced/2021/10/27/jpg/${epic.image}.jpg" alt="Pictures from Oct 27th" width="275" height="275"></a>
+    ${epic.caption} on ${epic.date}.
     </li>`;
    
   
